@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+		<meta charset="utf-8" />
+		<title>Common and Unique phobia</title>
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+		<script src="assets/css/example.js"></script>
+	<style>
+
+p{
+  font-size:20px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height:100%;
+  margin:30px;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  text-align:center;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+img{
+height:50%;
+width:100%;
+}
+
+
+</style>
+	</head>
+	<body>
+
+
+
+	<h1>Common and Unique phobia</h1>
+
+	
+
+	<div class = tab>
+	<ul>
+		<li><a href="index.html">homepage</a></li>
+	 	<li><a href="difference.html">difference</a></li>
+        <li><a href="cause.html">cause</a></li>
+        <li><a class="active" href="example.html">example</a></li>
+    	<li><a href="phobia.html">phobia</a></li>
+    	<li><a href="resource.html">resource</a></li>
+
+		</ul>
+
+	</div>
+<audio controls>
+  <source src="assets/media/music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p><strong>Note:</strong>The sound describe a list of the phobias people suffer from.</p>
+		<h2>
+		<strong>Common phobias list</strong>
+		</h2>
+
+
+<div class="grid-container2">
+
+    
+    
+  <div>	<h4>acrophobia</h4>
+    <p>fear of heights</p>
+    <img id="myImg" src="assets/images/acrophobia.jpg" alt = " 3 percent to 5 percent of the population suffering acrophobia" >
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+
+    </div>
+    
+  <div>	<h4>aerophobia</h4>
+    <p>fear of flying</p>
+        <img id="myImg2" src="assets/images/aerophobia.jpg" alt = "aerophobia affects 6.5 percent of the population">
+    <button onclick="myFunction2()">Try it</button>
+    <p id="demo2"></p>
+    </div>  
+    
+    
+  <div><h4>arachnophobia</h4>
+    <p>fear of spiders</p>
+            <img id="myImg3" src="assets/images/arachnophobia.jpg" alt = "Arachnophobia affects 3.5 to 6.1 percent of population" >
+    <button onclick="myFunction3()">Try it</button>
+    <p id="demo3"></p>
+    </div>
+    
+  <div><h4>astraphobia</h4>
+    <p>fear of thunder and lightning</p>
+    <img id="myImg4" src="assets/images/astraphobia.jpg" alt = "People who have astraphobia about 2 to 3 percent of the US population" >
+    <button onclick="myFunction4()">Try it</button>
+    <p id="demo4"></p>
+</div>
+
+    
+    
+  <div>	<h4>Trypanophobia</h4>
+    <p>fear of Needles </p>
+  <img id="myImg5" src="assets/images/trypanophobia.jpg" alt = "10 percent within that number suffer from Trypanophobia">
+    <button onclick="myFunction5()">Try it</button>
+    <p id="demo5"></p>
+    </div>
+    
+    
+  <div>	<h4>claustrophobia</h4>
+    <p>fear of confined or crowded spaces</p>
+      <img id="myImg6" src="assets/images/claustrophobia.jpg" alt = "5-10% of the world population is affected by severe claustrophobia" >
+    <button onclick="myFunction6()">Try it</button>
+    <p id="demo6"></p>
+</div>  
+    
+  <div><h4>Entomophobia</h4>
+    <p>fear of Bugs</p>
+          <img id="myImg7" src="assets/images/entomophobia.jpg" alt = "Critters 50 percent of phobics fear insects, snakes, or birds" >
+    <button onclick="myFunction7()">Try it</button>
+    <p id="demo7"></p>
+    </div>
+    
+  <div><h4>Cynophobia</h4>
+    <p> fear of dog</p>
+              <img id="myImg8" src="assets/images/cynophobia.jpg" alt = "cynophobia affect some 7 to 9 percent of the population">
+    <button onclick="myFunction8()">Try it</button>
+    <p id="demo8"></p>
+    
+    </div>
+    
+    
+      <div><h4>Glossophobia</h4>
+    <p>fear of Public Speaking</p>
+          <img id="myImg9" src="assets/images/glossophobia.jpg" alt = "75 percent of the population has some level of anxiety regarding public speaking" >
+    <button onclick="myFunction9()">Try it</button>
+    <p id="demo9"></p>
+    </div>
+</div>
+
+
+    		<h2>
+		<strong>unique phobias list</strong>
+		</h2>
+	<p>Hover over the image to see the effect.</p>
+	
+
+<div class="container">
+  <img src="assets/images/ne.jpg" alt="nephophobia" class="image" >
+   <div class="overlay">
+   <div class="text">nephophobia - fear of cloud</div>
+   </div>
+   <h4>nephophobia</h4>
+   	</div>
+
+
+ <div class="container">
+     <img src="assets/images/onomatophobia.jpg" alt="onomatophobia" class="image" >
+   	<div class="overlay"><div class="text">onomatophobia - fear of name</div>
+   	</div>
+   	   <h4>onomatophobia</h4>
+
+    </div>  
+    
+
+ <div class="container">
+     <img src="assets/images/pogonophobia.jpg" alt="pogonophobia" class="image" >
+   	<div class="overlay"><div class="text">pogonophobia - fear of beards</div>
+   	</div>
+   	   	   <h4>pogonophobia</h4>
+
+    </div> 
+   
+ <div class="container">
+     <img src="assets/images/cryophobia.jpg" alt="cryophobia" class="image">
+   	<div class="overlay"><div class="text">cryophobia - fear of ice or cold</div>
+   	</div>
+   	   	   	   <h4>cryophobia</h4>
+
+    </div> 
+
+
+    
+
+
+	
+</body>	
