@@ -1,0 +1,128 @@
+
+
+body {
+	background-color:#d0eefc;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#4ba6e7;
+	margin-left:25px;
+	margin-right:25px;
+	border: 10px solid transparent;
+	padding:15px;
+ 	border-image: url(icon.png) 45 round;
+ 	outline-style: dotted;	
+ 	font-size:18px;
+}
+
+h1{
+	border: 20px #f7ebfc;
+	outline-style: dotted;
+    background-color: #f8e0f6;
+    margin: 0.6em;
+    font-size: 40px;
+
+	text-align: center;
+	font-weight:bold;
+	border-style: outset;
+	color:#a47dfc;	
+	
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b4dcf4;
+}
+
+li {
+	font-size:18px;
+	float: left;
+    border-right:10px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #e6cded;
+}
+
+.active {
+    background-color: #eebffa;
+}
+
+h3 {
+  text-decoration: underline;
+  color: #a47dfc;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+code {
+
+  border-radius: 6px;
+  color: #606eed;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+  
+}
+
+
+section a{
+  float: left;
+  width: 60%;
+  
+
+}
+  
+
+
+aside{
+  float: right;
+  width: 30%
+
+}
+
+
+  
+  
+div.name {
+	text-align: right;
+	font-weight: bold;
+  	font-size: 15pt;
+	color:#a47dfc;
+
+}
+
+h2{
+
+	color:#606eed;
+	font-weight: bold;
+   font-size: 26pt;
+   	text-align: center;
+    margin: 0.6em;
+    border: 10px solid transparent;
+    padding: 15px;
+	  border-image: url(star.png) 32 round;
+
+  
+}
+  
+
+
+    
+    

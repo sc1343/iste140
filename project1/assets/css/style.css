@@ -1,0 +1,140 @@
+body {
+	background-color:#d0eefc;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#4ba6e7;
+	margin-left:25px;
+	margin-right:25px;
+	border: 10px solid transparent;
+	padding:15px;
+ 	border-image: url("http://serenity.ist.rit.edu/~sc1343/140/project1/assets/media/icon.png") 45 round;
+ 	outline-style: dotted;
+	font-size:18px;
+
+
+	
+}
+
+h1{
+	border: 20px #f7ebfc;
+	outline-style: dotted;
+    background-color: #f8e0f6;
+    margin: 0.6em;
+    font-size: 40px;
+
+	text-align: center;
+	font-weight:bold;
+	border-style: outset;
+	color:#a47dfc;	
+	
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b4dcf4;
+}
+
+li {
+	font-size:18px;
+	float: left;
+    border-right:10px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #e6cded;
+}
+.active {
+    background-color: #eebffa;
+}
+
+h3 {
+  text-decoration: underline;
+  color: #a47dfc;
+  font-weight: bold;
+  font-size: 18pt;
+  text-shadow: 2px 0.5px white;
+  
+}
+
+code {
+  border-radius: 6px;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 24px 15px;
+  text-align: center;
+  
+}
+
+
+section a{
+  float: left;
+  width: 70%;
+}
+
+aside {
+  float: right;
+  width: 30%
+  }
+  
+  
+div.name {
+	text-align: right;
+	font-weight: bold;
+  	font-size: 15pt;
+	color:#a47dfc;
+
+}
+
+h2{
+
+	color:#606eed;
+	font-weight: bold;
+   font-size: 26pt;
+   	text-align: center;
+    margin: 0.6em;
+    border: 10px solid transparent;
+      padding: 15px;
+  border-image: url("http://serenity.ist.rit.edu/~sc1343/140/project1/assets/media/star.png") 32 round;
+
+}
+
+h4{
+color: #457bff;
+font-size: 20px;
+font-weight: lighter;
+text-shadow: 3px 2px white;
+
+}
+
+div.gallery {
+  margin: 5px;
+  border: 2px solid #b4dcf4;
+  text-align:center;
+ 
+}
+
+div.gallery:hover {
+  border: 5px solid #b4dcf4;
+}
+
+div.gallery img {
+  width: 40%;
+  height: 40%;
+}
