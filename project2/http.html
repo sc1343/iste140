@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>HTTP</title>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="sidenav">
+		<a href="index.html">homepage</a>
+	 	<a href="pioneers.html">Internet Pioneers</a>
+     	<a class="active" href="http.html">HTTP</a>
+     	<a href="terminology.html">Terminology</a>
+    	<a href="references.html">References</a>
+	</div>
+	
+	<div class="main">
+		<h1>HTTP</h1>
+	
+	<section>
+		<h3>What is HTTP</h3>
+		<p>THTTP means HyperText Transfer Protocol. HTTP is the underlying protocol used by the World Wide Web and this protocol 
+		defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response 
+		to various commands. </p>
+		<p> For example, when you enter a URL in your browser, this actually sends an HTTP command to the Web server directing it to 
+		fetch and transmit the requested Web page. The other main standard that controls how the World Wide Web works is HTML, which 
+		covers how Web pages are formatted and displayed.</p>
+		
+
+		<h3>HTTP & TCP: HOW IT WORKS</h3>
+		<p>When you type an address such as www.codecademy.com into your browser, you are commanding it to open a TCP channel to the server 
+		that responds to that URL (or Uniform Resource Locator, which you can read more about on Wikipedia). A URL is like your home address
+		 or phone number because it describes how to reach you. In this situation, your computer, which is making the request, 
+		 is called the client. The URL you are requesting is the address that belongs to the server.</p>
+		 
+		 <p>Once the TCP connection is established, the client sends a HTTP GET request to the server to retrieve the webpage it should 
+		 display. After the server has sent the response, it closes the TCP connection. If you open the website in your browser again, 
+		 or if your browser automatically requests something from the server, a new connection is opened which follows the same process 
+		 described above. After you type the URL into your browser, your browser will extract the http part and recognize that it is the name
+		  of the network protocol to use. Then, it takes the domain name from the URL, and asks the internet Domain Name Server to return an 
+		  Internet Protocol (IP) address.</p>
+		
+		</section>
+		
+		<aside><p> <code> <img src="assets/media/http.png" alt="http diagram" height= 500 width =1100 > </code> </p></aside>
+
+
+	</div>
+	
+</body>
+	
+	
+
+
+
+	
+	
+	
+	
+	
